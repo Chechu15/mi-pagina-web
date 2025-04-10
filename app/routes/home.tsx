@@ -1,6 +1,5 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
-import { p } from "node_modules/@react-router/dev/dist/routes-DHIOx0R9";
 
 export function meta({}: Route.MetaArgs) {
   return [
