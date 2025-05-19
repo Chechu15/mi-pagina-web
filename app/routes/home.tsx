@@ -12,6 +12,7 @@ export default function Home() {
  return (
 
   <div>
+    
     <h1>Hola</h1>
     <h2>Aduososdsd</h2>
   </div>
