@@ -7,13 +7,13 @@ import Titulo from "~/components/Titulo";
 export function meta({ }: Route.MetaArgs) {
   return [
     { title: "1º ASIR" },
-    { name: "description", content: "Welcome to React Router!" },
+    { name: "SO en Linux", content: "Welcome to HardLinux!" },
   ];
 }
 export default function Home() {
   return (
     <section>
-      <Titulo titulo="Página de ejemplo de 1º de ASIR" />
+      <Titulo titulo="Diferentes Sitemas Operativos en Linux" />
       <ComponenteEjemplo />
     </section>
 

@@ -18,14 +18,23 @@ export const paginas = [
         description: "Descripción de la página 3",
         url: "pagina-3",
         color: "#FFFF00"
+    },
+    {
+        title: "Página 4",
+        description: "Descripción de la página 4",
+        url: "pagina-4",
+        color: "#FFFF00"
     }
+ 
+ 
 ]
 
 export default function ComponenteEjemplo() {
     return (
         <section>
             <div className=" px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
-                <Titulo titulo="Título de una sección" descripcion="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae consequuntur repellendus esse molestias illo soluta ratione vero et." />
+                <Titulo titulo="Los distintos universos de Linux" descripcion="Aquí exploraremos diferentes SO en linux , sus caracteristicas y para quien va dirigido.
+                Relajate , tomame un refresco o lo que te guste y aprende con nosotros. " />
                 <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
                     {
                         paginas.map((pagina) => (
