@@ -1,8 +1,11 @@
 import Titulo from "./Titulo"
 
+
+
 export const paginas = [
     {
         title: "Página 1",
+       
         description: "Descripción de la página 1",
         url: "pagina-1",
         color: "#ff76df"
