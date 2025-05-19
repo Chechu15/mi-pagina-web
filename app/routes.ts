@@ -5,5 +5,7 @@ export default [
     route("pagina-1", "routes/Pagina1.tsx"),
     route("pagina-2", "routes/Pagina2.tsx"),
     route("pagina-3", "routes/Pagina3.tsx"),
-    route("pagina-4", "routes/Pagina4.tsx")
+    route("pagina-4", "routes/Pagina4.tsx"),
+    route("about-me", 'routes/about-me.tsx'),
+    route("faq", 'routes/faq.tsx')
 ] satisfies RouteConfig;
