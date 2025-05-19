@@ -1,30 +1,27 @@
+import Noticia from "~/components/Titulo";
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import ComponenteEjemplo from "~/components/ComponenteEjemplo";
+import Titulo from "~/components/Titulo";
 
-export function meta({}: Route.MetaArgs) {
+
+export function meta({ }: Route.MetaArgs) {
   return [
-    { title: "Mi pagina web" },
+    { title: "1º ASIR" },
     { name: "description", content: "Welcome to React Router!" },
   ];
 }
-
 export default function Home() {
- return (
+  return (
+    <section>
+      <Titulo titulo="Página de ejemplo de 1º de ASIR" />
+      <ComponenteEjemplo />
+    </section>
 
-  <div>
-    
-    <h1>Hola</h1>
-    <h2>Aduososdsd</h2>
-  </div>
-  
- )
-
-
+  )
 }
 
 
-//export default function Home() {
- // return <Welcome />;
-//}
-
-
+{/* <div className="flex flex-col border-4 border-blue-500 justify-center items-center h-screen"> */ }
+{/* <h1 className="text-4xl">HOLA 1º ASIR :)</h1>
+<h2>Nuevos cambios</h2>
+</div> */}
