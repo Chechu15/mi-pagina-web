@@ -34,6 +34,7 @@ export const paginas = [
     color: "#FFFF00",
     image: fedora
   }
+  
 ];
 
 export default function ComponenteEjemplo() {
@@ -49,11 +50,6 @@ export default function ComponenteEjemplo() {
           {
             paginas.map((pagina) => (
               <div key={pagina.url} className="space-y-4">
-                <span
-                  style={{ backgroundColor: pagina.color }}
-                  className={`text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300`}>
-                  {pagina.title}
-                </span>
                 <img 
                   src={pagina.image} 
                   alt={pagina.title} 
