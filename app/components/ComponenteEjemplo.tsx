@@ -1,8 +1,8 @@
 // src/welcome/ComponenteEjemplo.tsx
 import Titulo from "./Titulo";
 import ubuntu from "../assets/ubuntu.png";
-import debian from "../assets/debian.jpeg";
-import linuxMint from "../assets/linux-mint.jpeg";
+import debian from "../assets/debian.png";
+import linuxMint from "../assets/linux-mint.png";
 import fedora from "../assets/fedora.png";
 
 export const paginas = [
@@ -53,7 +53,7 @@ export default function ComponenteEjemplo() {
                 <img 
                   src={pagina.image} 
                   alt={pagina.title} 
-                  className="w-full h-48 object-cover rounded-lg mb-4" 
+                  className="w-full h-100 object-cover rounded-lg mb-4" 
                 />
                 <h3 className="text-2xl font-bold leading-tight text-pink-600 dark:text-white">
                   {pagina.title}
