@@ -16,6 +16,12 @@ export default function Garuda() {
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
         Garuda Linux es una distribución de Linux basada en Arch Linux, enfocada en la velocidad y el rendimiento. Ofrece una experiencia de usuario fluida y personalizable.
+
+        <br /><br />
+        Si quieres saber más sobre Garuda puedes visitar la pagina web en el siguiente enlace:
+        <br /><br />
+        <a className='link-hover' href="https://garudalinux.org/">Pagina Oficial de Garuda</a>
+
       </p>
     </div>
   );

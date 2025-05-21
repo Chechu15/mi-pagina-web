@@ -16,7 +16,14 @@ export default function CentOS() {
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
         CentOS es una distribución de Linux basada en Red Hat Enterprise Linux (RHEL). Se caracteriza por ser estable y confiable, ideal para servidores y entornos empresariales.
+
+        <br /><br />
+        Si quieres saber más sobre CentOS puedes visitar la pagina web en el siguiente enlace:
+        <br /><br />
+        <a className='link-hover' href="https://www.centos.org/">Pagina Oficial de CentOS</a>
       </p>
+
+
     </div>
   );
 }

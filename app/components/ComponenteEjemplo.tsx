@@ -117,7 +117,7 @@ export const paginas = [
   },
   {
     title: "Whonix",
-    description: "Basado en Kicksecure que está enfocado a la seguridad digital,",
+    description: "Basado en Kicksecure que está enfocado a la seguridad digital",
     url: "/whonix",
     color: "#004950",
     image: whonix

@@ -18,7 +18,15 @@ export default function Debian() {
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
       Debian es una organización formada totalmente por voluntarios dedicada a desarrollar software libre y promocionar los ideales de la comunidad del software libre. El Proyecto Debian comenzó en 1993, cuando Ian Murdock hizo una invitación a todos los desarrolladores de software a contribuir a una distribución completamente coherente basada en el, entonces relativamente nuevo, núcleo Linux. Ese grupo relativamente pequeño de entusiastas, al principio patrocinados por la Free Software Foundation e influenciados por la filosofía GNU, ha crecido a lo largo de los años hasta convertirse en una organización de alrededor de 1000 desarrolladores Debian.
+
+      <br /><br />
+        Si quieres saber más sobre Debian puedes visitar la pagina web en el siguiente enlace:
+        <br /><br />
+        <a className='link-hover' href="https://www.debian.org/index.es.html">Pagina Oficial de Debian</a>
       </p>
+
+
+    
     </div>
   );
 }

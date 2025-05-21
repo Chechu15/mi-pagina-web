@@ -21,6 +21,11 @@ export default function Ubuntu() {
       Ubuntu es un sistema operativo basado en Linux, lo que llamamos comúnmente una distribución. Como toda distro (como se conocen comúnmente las distribuciones de Linux), es de código abierto. Además el sistema operativo es totalmente gratuito para cualquier uso, tanto en sus versiones para ordenadores personales como para servidores.
 
 Como decíamos, Ubuntu se destaca por su versatilidad, ya que tiene distintas ediciones que están pensadas para distintos usos. Por ejemplo, las ediciones para ordenadores personales vienen con soporte para interfaces gráficas y programas típicos de ofimática. Por su parte, las versiones para servidores solo admiten el trabajo con la consola de comandos. Pero también existen ediciones especiales para IoT y trabajo en la nube. 
+
+<br /> <br />
+Si quieres saber más sobre Ubuntu puedes visitar la pagina web en el siguiente enlace:
+<br /><br />
+<a className='link-hover' href="https://ubuntu.com/download">Pagina Oficial de Ubuntu</a>
       </p>
     </div>
   );

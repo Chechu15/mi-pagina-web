@@ -16,7 +16,13 @@ export default function ArchLinux() {
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
         Arch Linux es una distribución de Linux independiente y de código abierto, enfocada en simplicidad y flexibilidad. Se considera una de las distribuciones más avanzadas y personalizables.
+        <br /><br />
+        Si quieres saber más sobre Arch-Linux puedes visitar la pagina web en el siguiente enlace:
+        <br /><br />
+        <a className='link-hover' href="https://archlinux.org/">Pagina Oficial de Arch-Linux</a>
       </p>
+
+      
     </div>
   );
 }

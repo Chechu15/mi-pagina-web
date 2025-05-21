@@ -15,7 +15,13 @@ export default function Whonix() {
         Whonix
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
-        Whonix es una distribución de Linux diseñada para maximizar la anonimato y la seguridad en línea. Utiliza una arquitectura de dos máquinas virtuales para aislar el tráfico de red.
+      Whonix es un sistema operativo anónimo que se ejecuta como una aplicación y enruta todo el tráfico de Internet a través de la red de anonimato Tor. Ofrece protección de privacidad y anonimato en línea y está disponible para todos los principales sistemas operativos.
+
+        <br /> <br />
+Si quieres saber más sobre Whonix puedes visitar la pagina web en el siguiente enlace:
+<br /><br />
+<a className='link-hover' href="https://www.whonix.org/">Pagina Oficial de Whonix</a>
+
       </p>
     </div>
   );

@@ -16,6 +16,13 @@ export default function RedHat() {
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
         Red Hat Enterprise Linux (RHEL) es una distribución de Linux empresarial respaldada por Red Hat. Se caracteriza por su alta disponibilidad, seguridad y soporte premium.
+
+        <br /><br />
+        Si quieres saber más sobre RedHat puedes visitar la pagina web en el siguiente enlace:
+        <br /><br />
+        <a className='link-hover' href="https://www.redhat.com/es">Pagina Oficial de RedHat</a>
+
+
       </p>
     </div>
   );

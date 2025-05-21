@@ -18,6 +18,11 @@
         </h1>
         <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
         El proyecto Fedora es una comunidad de personas que trabajan en conjunto para crear una plataforma libre y de código abierto y para colaborar y compartir soluciones centradas en el usuario basadas en dicha plataforma. O, en términos más sencillos: hacemos un sistema operativo y le facilitamos hacer cosas provechosas en él.
+
+        <br /><br />
+        Si quieres saber más sobre Fedora puedes visitar la pagina web en el siguiente enlace:
+        <br /><br />
+        <a className='link-hover' href="https://fedoraproject.org/es/">Pagina Oficial de Fedora</a>
         </p>
       </div>
     );

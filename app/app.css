@@ -13,3 +13,11 @@ body {
     color-scheme: dark;
   }
 }
+
+.link-hover {
+  @apply transition duration-300 ease-in-out;
+}
+
+.link-hover:hover {
+  @apply text-blue-600 dark:text-blue-400 text-xl ;
+}

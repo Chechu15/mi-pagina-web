@@ -24,6 +24,11 @@ Uno de los mayores atractivos de Mint es su adaptabilidad. A diferencia de otros
 
 El compromiso con la excelencia no termina en la superficie. Bajo el capó, Mint ofrece herramientas robustas y un gestor de software con miles de aplicaciones a tu alcance. Desde codificar hasta editar vídeos, todo está a un par de clics de distancia. Además, la integración de codecs multimedia le permite a los usuarios reproducir una amplia variedad de formatos de vídeo y audio sin necesidad de instalaciones adicionales.
 
+<br /><br />
+        Si quieres saber más sobre Linux-Mint puedes visitar la pagina web en el siguiente enlace:
+        <br /><br />
+        <a className='link-hover' href="https://linuxmint.com/">Pagina Oficial de Linux-Mint</a>
+
 
         </p>
       </div>

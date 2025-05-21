@@ -16,6 +16,10 @@ export default function Alpine() {
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
         Alpine Linux es una distribución de Linux minimalista y ligera, diseñada para ser rápida y eficiente en entornos de servidor y embebidos.
+        <br /><br />
+        Si quieres saber más sobre Alpine puedes visitar la pagina web en el siguiente enlace:
+        <br /><br />
+        <a className='link-hover' href="https://www.alpinelinux.org/">Pagina Oficial de Alpine</a>
       </p>
     </div>
   );

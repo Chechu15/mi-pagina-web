@@ -16,6 +16,13 @@ export default function Manjaro() {
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
         Manjaro es una distribución de Linux basada en Arch Linux, diseñada para ser fácil de usar e intuitiva. Se destaca por su enfoque en la facilidad de instalación y la experiencia de usuario.
+
+        <br /><br />
+        Si quieres saber más sobre Manjaro puedes visitar la pagina web en el siguiente enlace:
+        <br /><br />
+        <a className='link-hover' href="https://manjaro.org/">Pagina Oficial de Manjaro</a>
+
+
       </p>
     </div>
   );

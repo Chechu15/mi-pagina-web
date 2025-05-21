@@ -16,6 +16,12 @@ export default function KaliLinux() {
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
         Kali Linux es una distribución de Linux diseñada específicamente para pruebas de penetración y auditoría de seguridad. Ofrece una amplia gama de herramientas de hacking ético.
+
+        <br /><br />
+        Si quieres saber más sobre Kali-Linux puedes visitar la pagina web en el siguiente enlace:
+        <br /><br />
+        <a className='link-hover' href="https://www.kali.org/">Pagina Oficial de Kali-Linux</a>
+
       </p>
     </div>
   );

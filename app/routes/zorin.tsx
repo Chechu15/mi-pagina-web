@@ -16,6 +16,12 @@ export default function Zorin() {
       </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300 text-center">
         Zorin OS es una distribución de Linux diseñada para ser compatible con Windows, con una interfaz similar a la de Windows 10 y 11. Es ideal para usuarios que desean una transición suave desde Windows.
+
+        <br /> <br />
+Si quieres saber más sobre Zorin puedes visitar la pagina web en el siguiente enlace:
+<br /><br />
+<a className='link-hover' href="https://zorin.com/os/">Pagina Oficial de Zorin</a>
+
       </p>
     </div>
   );
