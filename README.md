@@ -1,87 +1,36 @@
-# Welcome to React Router!
+# Mi Página Web de Distribuciones de Linux
 
-A modern, production-ready template for building full-stack React applications using React Router.
+Esta página web explora diferentes distribuciones de Linux, destacando sus características, usos y para quiénes están dirigidos. Utiliza React y Tailwind CSS para ofrecer una experiencia de usuario moderna y responsiva.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## Características
 
-## Features
+- Listado de distribuciones de Linux con descripciones detalladas.
+- Enlaces interactivos con efectos de hover.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## Requisitos
 
-## Getting Started
+- Node.js (versión 14 o superior)
+- npm (Node Package Manager)
 
-### Installation
+## Instalación
 
-Install the dependencies:
+1. **Clona el repositorio:**
+    ```sh
+    git clone https://github.com/Chechu15/mi-pagina-web.git
+    cd mi-pagina-web
+    ```
 
-```bash
-npm install
-```
+2. **Instala las dependencias:**
+    ```sh
+    npm install
+    ```
 
-### Development
+3. **Inicia el servidor de desarrollo:**
+    ```sh
+    npm run dev
+    ```
 
-Start the development server with HMR:
+4. **Accede a la aplicación:**
+    - Una vez que el servidor esté en funcionamiento, abre tu navegador y dirigete a `http://localhost:3000` (o el puerto que se indique en la salida del comando).
 
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Espero que te haya gustado mi repositorio.
