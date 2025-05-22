@@ -1,8 +1,12 @@
 // src/welcome/routes.ts
 import { index, route, type RouteConfig } from "@react-router/dev/routes";
 
+// Configuración de rutas para la aplicación
+
 export default [
-  index("routes/home.tsx"),
+   // Ruta de inicio
+  index("routes/home.tsx")  ,
+   // Rutas para cada distribución de Linux
   route("ubuntu", "routes/ubuntu.tsx"), 
   route("debian", "routes/debian.tsx"),  
   route("linux-mint", "routes/linux-mint.tsx"), 
