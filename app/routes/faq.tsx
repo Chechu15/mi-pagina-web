@@ -29,7 +29,7 @@ export default function FAQ() {
           </p>
         </div>
         <div>
-          <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">Si soy un punto de mira de países u organismos oficiales , que distribución escojo?</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">Si soy un punto de mira de países u organismos oficiales , ¿que distribución escojo?</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300">
             Para una persona que se tenga que esconder de gente muy poderosa y que si comete algún error le pueda costar la vida. Recomendamos SO como 
             QubesOS o un sistema que no deja huella en ningún ordenador como Tails
